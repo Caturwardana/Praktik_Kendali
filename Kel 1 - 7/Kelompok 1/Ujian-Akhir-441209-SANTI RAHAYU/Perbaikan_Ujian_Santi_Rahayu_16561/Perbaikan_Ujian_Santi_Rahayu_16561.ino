@@ -14,10 +14,10 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 const int potPin = 34;
 
 // Replace with your network credentials
-const char* ssid = "UGM-hotspot";
-const char* password = "";
+const char* ssid = "project";
+const char* password = "22222222";
 
-#define DHTPIN 4     // Digital pin connected to the DHT sensor
+#define DHTPIN 15     // Digital pin connected to the DHT sensor
 
 // Uncomment the type of sensor in use:
 #define DHTTYPE    DHT11     // DHT 11
